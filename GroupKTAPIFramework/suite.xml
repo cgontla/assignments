@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HelloFresh API Tests" verbose="3">
+	<test name="GroupKT APIs">
+		<classes>
+			<class name="GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests">
+			</class>
+		</classes>
+	</test>
+</suite>

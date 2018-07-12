@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[DE is found in all countries list
+]]>
+    </line>
+    <line>
+      <![CDATA[GB is found in all countries list
+]]>
+    </line>
+    <line>
+      <![CDATA[US is found in all countries list
+]]>
+    </line>
+  </reporter-output>
+  <suite name="HelloFresh API Tests" duration-ms="5177" started-at="2018-07-10T19:36:49Z" finished-at="2018-07-10T19:36:55Z">
+    <groups>
+    </groups>
+    <test name="GroupKT APIs" duration-ms="5177" started-at="2018-07-10T19:36:49Z" finished-at="2018-07-10T19:36:55Z">
+      <class name="GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests">
+        <test-method status="PASS" signature="httpRequest()[pri:0, instance:GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests@59f99ea]" name="httpRequest" is-config="true" duration-ms="413" started-at="2018-07-10T19:36:49Z" finished-at="2018-07-10T19:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- httpRequest -->
+        <test-method status="PASS" signature="getAllCountries()[pri:0, instance:GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests@59f99ea]" name="getAllCountries" duration-ms="1928" started-at="2018-07-10T19:36:50Z" finished-at="2018-07-10T19:36:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[DE is found in all countries list
+]]>
+            </line>
+            <line>
+              <![CDATA[GB is found in all countries list
+]]>
+            </line>
+            <line>
+              <![CDATA[US is found in all countries list
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAllCountries -->
+        <test-method status="PASS" signature="getCountry(java.lang.String)[pri:0, instance:GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests@59f99ea]" name="getCountry" duration-ms="584" started-at="2018-07-10T19:36:52Z" data-provider="CountryDetails" finished-at="2018-07-10T19:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountry -->
+        <test-method status="PASS" signature="getCountry(java.lang.String)[pri:0, instance:GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests@59f99ea]" name="getCountry" duration-ms="556" started-at="2018-07-10T19:36:52Z" data-provider="CountryDetails" finished-at="2018-07-10T19:36:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountry -->
+        <test-method status="PASS" signature="getCountry(java.lang.String)[pri:0, instance:GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests@59f99ea]" name="getCountry" duration-ms="535" started-at="2018-07-10T19:36:53Z" data-provider="CountryDetails" finished-at="2018-07-10T19:36:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountry -->
+        <test-method status="PASS" signature="getCountryWithInvalidCode()[pri:0, instance:GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests@59f99ea]" name="getCountryWithInvalidCode" duration-ms="538" started-at="2018-07-10T19:36:53Z" finished-at="2018-07-10T19:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountryWithInvalidCode -->
+        <test-method status="PASS" signature="postCountry()[pri:0, instance:GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests@59f99ea]" name="postCountry" duration-ms="602" started-at="2018-07-10T19:36:54Z" finished-at="2018-07-10T19:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCountry -->
+      </class> <!-- GroupKTAPIFramework.GroupKTAPIFramework.GetCountryTests -->
+    </test> <!-- GroupKT APIs -->
+  </suite> <!-- HelloFresh API Tests -->
+</testng-results>
